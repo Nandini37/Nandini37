@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @Nandini37
 - 👀 I’m interested in Data Analysis
-- 🌱 I’m currently learning Python,SQL, powerBI and TAbleau
-- 💞️ I’m looking to collaborate on Python
+- 🌱 I’m currently learning Python,SQL, powerBI and Tableau
 - 📫 How to reach me nandiniwadaskar3@gmail.com
 
 <!---
