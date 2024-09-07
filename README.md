@@ -1,6 +1,7 @@
 - 👋 Hi, I’m @Nandini37
-- 👀 I’m interested in Data Analysis
-- 🌱 I’m currently learning Python,SQL, powerBI and Tableau
+- 👀 I’m a Data Engineer at Silicon Labs
+- 👩‍💻 I have 2 years of Experience in SQL, Python, PowerBI, Tableau, Excel
+- 🌱 I’m currently learning Python, Azure, Databricks
 - 📫 How to reach me nandiniwadaskar3@gmail.com
 
 <!---
