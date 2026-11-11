@@ -6,46 +6,73 @@ Here's a README file focused on your experience as a Data Engineer, showcasing y
 
 ## 👋 About Me
 
-I am **Nandini Wadaskar**, a passionate **Data Engineer** with a strong foundation in data analytics and software development. With hands-on experience in data validation, ETL processes, data visualization, and business intelligence, I am committed to leveraging data to drive actionable insights and improve decision-making in organizations.
+I am **Nandini Wadaskar**, a passionate **Data Engineer** with a strong foundation in data analytics and software development. With hands-on experience in data validation, ETL processes, data visualization, and cloud-based data platforms, I build reliable data solutions that turn complex data into actionable insights.
 
 ## 🔧 Skills & Technologies
 - **Programming Languages**: Python, Java, SQL
 - **Certifications**: IBM Data Engineer
-- **Tools & Technologies**: 
-  - **Data Engineering**: Azure Data Factory, Databricks, SparkSQL, PySpark
-  - **Data Visualization**: Tableau, Power BI, Looker
+- **Tools & Technologies**:
+  - **Data Engineering**: Snowflake, dbt, Azure Data Factory, Databricks, SparkSQL, PySpark, Redshift
+  - **Data Visualization**: Tableau, Power BI, Looker, Streamlit
   - **Data Processing**: Alteryx, SSMS, Excel, Jupyter Notebook
-  - **Others**: Jira, Google Query, Pandas, NumPy, DAX
+  - **Others**: Jira, Git, Azure DevOps, Airflow, Soda, Pandas, NumPy, DAX
 
 ## 💼 Experience
 
-### Data Engineer | Silicon Labs  
-**Mar 2024 - Present**
-- **Data Validation and Error Rectification**: Conducted comprehensive comparisons of 12 tables from two data sources, validated data types and measures, and identified and rectified errors using Alteryx and Excel.
-- **Tableau Dashboard Development and Data Integration**: Delivered three Tableau Dashboards that provided actionable insights into pricing strategies, resulting in a 15% improvement in competitive pricing accuracy. Managed the integration of multiple data sources, ensuring seamless data flow and improving Dashboard performance.
-- **ETL & Data Publishing**: Handled over 7 million records to a Tableau Data Source by leveraging Azure Data Factory (ADF), Databricks, and PySpark.
-- **Data Visualization & Reporting**: Developed Power BI dashboards integrated with PowerPoint for seamless Quarterly Business Review (QBR) reporting, ensuring stakeholders had access to critical business insights.
-- **Tools Used**: SSMS, Azure SQL, Alteryx, Tableau, Looker, Power BI, Python, Jupyter Notebook, Azure Data Factory, Databricks, SparkSQL, PySpark, Soda, Jira.
+### Senior Data Engineer | Highspring (OneDigital)
+**Feb 2026 – Present**
 
-### Business Data Analyst, Strategic Pricing | ShipBob  
+Owning AI-powered observability, cost monitoring, and governance for the Snowflake data platform, alongside the Head of Data at OneDigital.
+
+- Built **Sentinel**, an autonomous AI agent for pipeline reliability. It detects failed jobs, performs root cause analysis, and applies or suggests fixes—cutting the failure rate from **21.4% to 1.13%**, detection time from days to 30-minute cycles, and resolution time from 3 days to 7.6 hours.
+- Automated the incident lifecycle and data quality auditing. Sentinel raises Azure DevOps tickets with RCA, routes them to the right sprint and developer, and alerts via Teams (**67 tickets** and **759 fix suggestions** to date). Audits run **827K+ checks across 2,360 entities**, catching **$39K+** in revenue data errors before reporting. Built custom SQL monitoring tables, 10+ stored procedures, and MCP-based multi-system remediation.
+- Projected approximately **$21K in annual savings**: decommissioned Cortex Search services and fixed Notebook failures (~$9K) with developer teams; migrated full-refresh batch loads to declarative, incremental Dynamic Tables and idempotent MERGE upserts (~$12K), reducing redundant compute.
+- Built a centralized monitoring layer spanning **108 pipelines and 8 source types**, providing end-to-end visibility into failures, cost, data quality, and freshness through one dashboard.
+- Migrated **20+ SSIS packages** to Snowflake Notebooks by refactoring transformations into Snowflake-native code, configuring External Access Integrations (EAI) and network rules for secure source connectivity, and decommissioning legacy SSIS workloads to reduce infrastructure dependency and maintenance.
+- **Tools**: Snowflake, Cortex AI, SSIS, SSMS, ADF, MCP, AI agents, UDFs, Streamlit, Git, Azure DevOps.
+
+### Senior Data Engineer | 5X
+**Jan 2025 – Feb 2026**
+
+Led engineering work extracting and migrating data from multiple sources to Snowflake.
+
+- Ingested data from **146 SAP BW4HANA sources** into Snowflake, building ETL pipelines and calculations from scratch. Eliminated dependency on SAP BW and on-premises storage costs. Implemented dbt for Jinja macros, lineage tracking, and testing.
+- Migrated SAP cube-based data sources to Snowflake with no design changes across **17 dashboards**, saving **95%** of the time previously spent on Power BI design development.
+- Ingested Anaplan data into Snowflake using Python and ADF; built complex financial statement and ratio analysis models. Saved over **300 GB** of storage and **$150K** in client storage costs.
+- Created an ETL pipeline for QuickBooks and built financial reporting models in Amazon Redshift.
+- Monitored jobs and debugged Python scripts and ADF pipelines. Developed a dashboard tracking job status, successive runs, and data audits, improving job-fix SLA by **65%**.
+- Implemented Git and core data engineering practices, including incremental loads, SCD, medallion architecture, SDLC, Scrum, batch processing, data lineage, and orchestration.
+- **Tools**: Snowflake, dbt, Redshift, Databricks, Airbyte, Fivetran, Python, GitHub, Git.
+
+### Data Engineer | Silicon Labs
+**Mar 2024 – Jan 2025**
+
+Designed ETL batch pipelines and job orchestration using Databricks, Python, SQL, and Airflow.
+
+- Migrated Alteryx transformations to Python and orchestrated them with Apache Airflow DAGs, using XComs for task communication and optimized executors for parallel processing. Improved scheduling, reduced pipeline failures by **40%**, and cut Alteryx costs by about **20%**.
+- Monitored, maintained, and optimized Airflow DAGs using schedulers and executors. Implemented Soda to improve data reliability and Alation to establish data governance.
+- Developed PySpark transformation scripts as a proof of concept to evaluate cost and scalability using existing workflows.
+- Served as Scrum facilitator and assisted the Scrum Master with ceremonies, including standups and retrospectives.
+- **Tools**: SQL (SSMS, Azure SQL), Python, Apache Airflow, Databricks, Spark SQL, PySpark, Fivetran, Alteryx, Tableau, Looker, Power BI, Azure Data Factory, Soda, Jira, JAMS, Salesforce, Postman.
+
+### Business Data Analyst | ShipBob
 **Sept 2022 – Mar 2024**
-- **Business Intelligence and Visualization**: Created interactive dashboards using SQL queries, DAX, and Power BI to visualize key business metrics, leading to an 80% improvement in data accessibility and decision-making processes. Successfully migrated dashboards from Looker to Power BI.
-- **Python Automation**: Developed and implemented Python scripts to automate data operations, resulting in a 70% decrease in file processing time across six major projects utilizing Pandas and NumPy.
-- **Critical Data Analysis**: Increased revenue through the implementation of pricing strategies and risk analysis, reducing customer churn and protecting profit margins by processing data from multiple inputs using SQL, Excel, and statistical analysis.
-- **Excel Mastery**: Enhanced efficiency by developing Excel templates for rate monitoring, transit cost analysis, and competitor price comparisons.
-- **Pattern Analysis**: Identified discrepancies in existing Power BI dashboards through in-depth pattern analysis and corrective actions.
-- **Azure Data Factory**: Designed a data pipeline to upload files from blob storage to SSMS, ensuring seamless data integration while monitoring consistent data flow and accuracy.
-- **Communicating Insights within SLA**: Delivered over 600 Jira tickets for cross-team functions, achieving an 86% success rate by effectively communicating and addressing root causes. Produced over 100 ad hoc reports for critical analysis across teams.
-- **Documentation**: Developed standard operating procedures (SOPs), documented projects and scripts, and conducted departmental training.
-- **Tools Used**: SQL Server Management Studio (SSMS), Azure SQL, Python, Jupyter Notebook, Power BI, Looker, Tableau, Power Query, Azure Data Factory, Streamlit, Google Query, PowerPivot, Excel, Google Sheets, DAX, Paginated Reports, Jira, Visual Studio Code (VS Code).
 
-### Analyst Intern | MiQ  
-**Jan 2022 - Sept 2022**
-- **Insightful Data Handling**: Leveraged Excel and Python to clean, analyze, and update HR data, providing actionable business insights.
-- **KPI and Metric Precision**: Defined success metrics and assigned numerical values to critical business functions for streamlined comparative analysis.
-- **Error Management**: Generated error reports and effectively managed outliers to ensure data quality and truth availability.
-- **Strategic Visualization**: Utilized Tableau and Looker for data visualization, facilitating seamless communication with senior management.
-- **Tools Used**: Tableau, Looker, SSMS, Excel, Power Query, Google Sheets, Google Query, Python, Scikit-learn, Matplotlib, Seaborn.
+- Engineered Python automation across six frequent Jira ticket types, including an order credit tracking system to prevent duplicate credits and financial losses. Automated multi-ticket processing, reducing file processing time by **75%**.
+- Built **Winlogic**, a carrier allocation engine for the 2-day shipping program. It uses historical performance data to exclude underperforming carriers and select the delivery partner with better on-time performance, achieving a **95% success rate** for the 2-day ship option.
+- Created a Python script to assess storage-cost profitability using cubic-foot pricing and compare it with current pricing.
+- Designed pricing plans for new ZIP codes by retrieving zone allocation from the USPS API and JSON responses.
+- Designed Power BI dashboards tracking fulfillment-center and carrier performance to support pricing decisions based on merchant performance.
+- **Tools**: Python, SQL, Azure, Power BI, Jira, USPS API, JSON, Excel.
+
+### Analyst Intern | MiQ
+**Jan 2022 – Sept 2022**
+
+- Leveraged Excel and Python to clean, analyze, and update HR data, providing actionable business insights.
+- Defined success metrics and assigned numerical values to critical business functions for streamlined comparative analysis.
+- Generated error reports and managed outliers to ensure data quality and accuracy.
+- Used Tableau and Looker for data visualization and communication with senior management.
+- **Tools**: Tableau, Looker, SSMS, Excel, Power Query, Google Sheets, Google Query, Python, Scikit-learn, Matplotlib, Seaborn.
 
 ## 🎓 Education
 - **MCA in Data Science**: LPU (2024), CGPA: 8.2
