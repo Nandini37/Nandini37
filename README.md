@@ -28,7 +28,7 @@ Owning AI-powered observability, cost monitoring, and governance for the Snowfla
 - Automated the incident lifecycle and data quality auditing. Sentinel raises Azure DevOps tickets with RCA, routes them to the right sprint and developer, and alerts via Teams (**67 tickets** and **759 fix suggestions** to date). Audits run **827K+ checks across 2,360 entities**, catching **$39K+** in revenue data errors before reporting. Built custom SQL monitoring tables, 10+ stored procedures, and MCP-based multi-system remediation.
 - Projected approximately **$21K in annual savings**: decommissioned Cortex Search services and fixed Notebook failures (~$9K) with developer teams; migrated full-refresh batch loads to declarative, incremental Dynamic Tables and idempotent MERGE upserts (~$12K), reducing redundant compute.
 - Built a centralized monitoring layer spanning **108 pipelines and 8 source types**, providing end-to-end visibility into failures, cost, data quality, and freshness through one dashboard.
-- Migrated **20+ SSIS packages** to Snowflake Notebooks by refactoring transformations into Snowflake-native code, configuring External Access Integrations (EAI) and network rules for secure source connectivity, and decommissioning legacy SSIS workloads to reduce infrastructure dependency and maintenance.
+- Migrated **SSIS packages** to Snowflake Notebooks by refactoring transformations into Snowflake-native code, configuring External Access Integrations (EAI) and network rules for secure source connectivity, and decommissioning legacy SSIS workloads to reduce infrastructure dependency and maintenance.
 - **Tools**: Snowflake, Cortex AI, SSIS, SSMS, ADF, MCP, AI agents, UDFs, Streamlit, Git, Azure DevOps.
 
 ### Senior Data Engineer | 5X
